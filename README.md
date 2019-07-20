@@ -32,6 +32,8 @@
 --- --- l.php      | 探针
 --- --- redis.php | redis测试
 --- --- mysql.php | mysql测试
+--- Docker_Run.txt | docker命令 操作说明 - 教程
+--- 安装扩展.txt  | 扩展安装命令
 
 
 # 一 、手动安装容器 （推荐使用此方法）
