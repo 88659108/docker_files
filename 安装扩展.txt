@@ -1,0 +1,43 @@
+
+【PHP 安装redis扩展 -- 必须逐条执行】
+
+-- 在线下载 扩展包 
+curl -L -o /tmp/redis.tar.gz https://github.com/phpredis/phpredis/archive/3.1.3.tar.gz
+
+
+======================================================
+(已下载在： ./ext.tools/redis.tar.gz)
+拷贝至php56容器相应位置： docker cp redis.tar.gz php56:/tmp/redis.tar.gz
+======================================================
+
+
+tar xfz /tmp/redis.tar.gz
+rm -r /tmp/redis.tar.gz
+
+mkdir -p /usr/src/php/ext
+mv phpredis-3.1.3 /usr/src/php/ext/redis
+
+docker-php-ext-install redis
+
+
+
+
+
+
+
+——————————————————————————————————————
+======================================================
+【安装PHP扩展】
+docker-php-ext-install pdo_mysql mysqli mysql gd
+
+
+
+
+
+——————————————————————————————————————
+======================================================
+【安装 vim】
+apt-get update
+apt-get install vim
+
+
