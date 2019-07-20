@@ -47,3 +47,7 @@ pwd #获得 docker目录 绝对路径
 3，安装扩展.txt
 
 
+# 二 、其他方法
+````
+参考：https://github.com/duzhenxun/dockerfiles-lnmp
+感谢博主，我也是参考这个，完全笔记下来，稍稍改造完成的 docker命令。
