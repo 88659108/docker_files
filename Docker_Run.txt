@@ -1,14 +1,21 @@
 
 
-这样设置本机地址：  
---- (你的路劲) + /docker/xxx
-
---- 如：
---- win系统：  E:/conf/docker/
---- linux系统： /conf/docker/
+一、docker run 命令中
+示例目录为：E:/conf/docker/
 
 
---- 替换路径   E:/conf/ ==> /xxx/
+
+二、 txt文件(编辑->替换)   "E:/conf/docker/" ==> "{$path}/docker/"
+
+
+三、操作示例：
+Windowns：  "E:/conf/docker/" ==> "D:/conf/docker/"
+Linux： "E:/conf/docker/" ==> "/data/conf/docker/"
+
+
+
+四、批量替换后，直接复制 docker命令，执行。
+
 
 
 

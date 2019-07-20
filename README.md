@@ -43,9 +43,12 @@
 1，下载到本地
 git clone https://code.aliyun.com/csboge/docker_files.git docker
 cd docker
-pwd #获得 docker目录 绝对路径
+pwd #获得 [真实目录]
 
-2，Docker_Run.txt
+2，Docker_Run.txt  操作教程（详细、亲测）
+- 示例目录： "E:/conf/docker/"
+- 自行替换 [真实目录]  
+- 如： txt文件(编辑->替换)   "E:/conf/docker/" ==> "{$path}/docker/"
 
 3，安装扩展.txt
 
